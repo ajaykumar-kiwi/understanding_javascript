@@ -6,8 +6,30 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <script src="index.js"></script>
-  <script src="generator.js"></script>
+  <style>
+    .x {
+      color: red;
+    }
+  </style>
+
 </head>
 <body>
+  <div class="x">Outer element</div>
+  <hr>
+  <div id="shadowHost">Hello</div>
+  <hr>
+  <div id="shadowHost2">Hi</div>
+
+    --- We can use templates to handle large html.
+  <template id="tmpl">
+    <style>
+      .x {
+        color: red;
+      }
+    </style>
+    <div><span class="name">I am a shadom element</span></div>
+  </template>
+
+  <script src="shadow.js"></script>
 </body>
 </html>

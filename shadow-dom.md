@@ -1,0 +1,2 @@
+- Shadow DOM tree is a separate DOM tree of elements that you can create.. which is not the part of the main document DOM but when it get rendered it behaves like its a part of main DOM.
+- 
