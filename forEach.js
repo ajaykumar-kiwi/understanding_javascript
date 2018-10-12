@@ -19,12 +19,12 @@ var myArray = [1,2,3,4];
 
 myArray.forEach(function(value) {
   if(value === 2)
-    return;
+    break;
   console.log(value);
 });
 
 for (var i = 0; i < myArray.length; i++) {
   if(myArray[i] === 2)
-    return;
+    break;
   console.log(myArray[i]);
 }
